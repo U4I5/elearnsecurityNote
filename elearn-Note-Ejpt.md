@@ -140,9 +140,8 @@ target_host=%3Cscript%3Ealert%281%29%3C%2Fscript%3E&dns-lookup-php-submit-button
 
 ```
 ## Enum4linux 
--  enum4linux -U # enum Users
--  enum4linux -d -S # detail and Share list
--  enum4linux -U # enum Users
+- enum4linux -U # enum Users
+- enum4linux -d -S # detail and Share list
 - enum4linux -n # nbstat if server avaible you got <20>
 - enum4linux -s ~/Desktop/wordlists/100-common-passwords.txt # share brute force
 
