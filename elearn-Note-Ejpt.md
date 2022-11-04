@@ -172,7 +172,6 @@ nmap -sS -sV -p 1234 localhost
 
 ```
 use post/linux/gather/enum_users_history
-
 ```
 ## Setting Proxy Socks
 
