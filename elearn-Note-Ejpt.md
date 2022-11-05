@@ -190,4 +190,18 @@ use auxiliary/server/socks_proxy
 ```
 exploit/multi/mysql/mysql_udf_payload
 ```
+# Find flag
+```
+find / -name flag.txt 2>/dev/null
+find / -name user.txt 2>/dev/null
+find / -name .flag 2>/dev/null
+find / -name flag 2>/dev/null
+find / -name root.txt 2>/dev/null
+```
 
+# Mysql 
+
+show databases;
+use gallery_db;
+show tables;
+select * from users;
