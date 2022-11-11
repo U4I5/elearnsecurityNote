@@ -201,7 +201,9 @@ find / -name root.txt 2>/dev/null
 
 # Mysql 
 
+```
 show databases;
 use gallery_db;
 show tables;
 select * from users;
+```
