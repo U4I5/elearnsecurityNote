@@ -209,6 +209,7 @@ select * from users;
 ```
 
 # Git Commit with Login
+
 ```
 git commit -m "Bug Fix" --author "Jeremy McCarthy <jeremy@dummycorp.com>"
 ```
