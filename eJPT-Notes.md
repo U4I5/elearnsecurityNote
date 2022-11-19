@@ -8,7 +8,6 @@ Check routing table information
 $ route 
 $ ip route
 ```
-
 Add a network to current route
 
 ```
